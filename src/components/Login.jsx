@@ -5,13 +5,20 @@ export const Login = () => {
     return (
         <div className="flex items-center justify-center h-screen gradient-background">
             <div className="max-w-md w-full bg-[#0F0E13] rounded-lg shadow-md p-12 border border-gray-700">
-                <div class="flex items-center justify-center text-center">
-                    <img src="/logo.png" alt="Logo" class="mb-6 img-size" />
+                <div className="text-sm mb-3 text-center">
+                    ¿ No tienes usuario ?
+                    <a href="/registro" className="ml-2 font-medium text-indigo-400 hover:text-blue-700">
+                        Registrate
+                    </a>
                 </div>
-
-                <a href="/">
-                    <h1 className="text-gray-200 text-5xl text-center text-bold mb-12"> Zero Academy </h1>
+                <a href='/' class="flex items-center justify-center text-center">
+                    <img src="/logo.png" alt="Logo" class="img-size" />
                 </a>
+                <a href="/">
+                    <h1 className="text-gray-200 text-4xl text-center text-bold mb-7"> Zero Academy </h1>
+                </a>
+
+
                 <form className="space-y-4">
                     <div>
                         <label for="email" className="block text-sm font-medium text-gray-300">Correo electrónico</label>

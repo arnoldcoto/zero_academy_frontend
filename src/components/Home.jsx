@@ -24,13 +24,10 @@ export const Home = () => {
                 <div className="text-center w-full pb-32">
                     <h1 className="text-6xl font-bold mb-2 gradient-text">Que estas esperando ?</h1>
                     <p className="text-2xl text-gray-400 py-4"> Empieza ahora con nosotros, con una educacion garantizada para tu futuro profesional </p>
-                    <button href="/perfil" className="bg-violet-700 hover:bg-violet-600 text-gray-200 ml-2 py-2 px-5 rounded">
+                    <a href="/registro" className="bg-violet-700 hover:bg-violet-600 text-gray-200 ml-2 py-2 px-5 rounded">
                         Registrate
-                    </button>
-                  
+                    </a>
                 </div>
-
-            
             </div>
             <Footer/>
         </>
